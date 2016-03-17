@@ -5,7 +5,7 @@ DGElasticPullToRefresh-Xamarin.iOS is a binding project for [DGElasticPullToRefr
 
 ## How to use ##
 	
-There two projects one for creating static lib and another for binding dll.
+There are two projects one for creating static lib and another for binding dll.
 
 To generate binding dll open DGElasticPullToRefresh.sln and build. You will get dll in bin folder.
 
@@ -26,8 +26,8 @@ Now you can add dll as a reference in any xamarin.iOS project and use it as show
 
 ## How it looks ##
 
-![](https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview1.gif)
-![](https://raw.githubusercontent.com/gontovnik/DGElasticPullToRefresh/master/DGElasticPullToRefreshPreview2.gif)
+![](https://github.com/nikhilgohil11/DGElasticPullToRefresh-Xamarin.iOS/blob/master/DGElasticPullToRefreshPreview1.gif)
+![](https://github.com/nikhilgohil11/DGElasticPullToRefresh-Xamarin.iOS/blob/master/DGElasticPullToRefreshPreview2.gif)
 
 ## Lincense ##
 
