@@ -29,6 +29,6 @@ Now you can add dll as a reference in any xamarin.iOS project and use it as show
 ![](https://github.com/nikhilgohil11/DGElasticPullToRefresh-Xamarin.iOS/blob/master/DGElasticPullToRefreshPreview1.gif)
 ![](https://github.com/nikhilgohil11/DGElasticPullToRefresh-Xamarin.iOS/blob/master/DGElasticPullToRefreshPreview2.gif)
 
-## Lincense ##
+## License ##
 
 [MIT License] (http://nikhilgohil11.mit-license.org/ "MIT License")
