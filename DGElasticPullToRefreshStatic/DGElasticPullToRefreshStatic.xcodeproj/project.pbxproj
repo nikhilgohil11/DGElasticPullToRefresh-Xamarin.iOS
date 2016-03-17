@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EABA7EC81C92B996008EC4FD /* DGElasticPullToRefreshStatic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EABA7EC71C92B996008EC4FD /* DGElasticPullToRefreshStatic.h */; };
+		EABA7ECA1C92B996008EC4FD /* DGElasticPullToRefreshStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = EABA7EC91C92B996008EC4FD /* DGElasticPullToRefreshStatic.m */; };
+		EABA7EDA1C92B9A6008EC4FD /* DGElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EABA7ED11C92B9A6008EC4FD /* DGElasticPullToRefresh.m */; };
+		EABA7EDB1C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EABA7ED31C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.m */; };
+		EABA7EDC1C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABA7ED51C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.m */; };
+		EABA7EDD1C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = EABA7ED71C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.m */; };
+		EABA7EDE1C92B9A6008EC4FD /* DGElasticPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = EABA7ED91C92B9A6008EC4FD /* DGElasticPullToRefreshView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EABA7EC21C92B996008EC4FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EABA7EC81C92B996008EC4FD /* DGElasticPullToRefreshStatic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EABA7EC41C92B996008EC4FD /* libDGElasticPullToRefreshStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDGElasticPullToRefreshStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABA7EC71C92B996008EC4FD /* DGElasticPullToRefreshStatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGElasticPullToRefreshStatic.h; sourceTree = "<group>"; };
+		EABA7EC91C92B996008EC4FD /* DGElasticPullToRefreshStatic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGElasticPullToRefreshStatic.m; sourceTree = "<group>"; };
+		EABA7ED01C92B9A6008EC4FD /* DGElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGElasticPullToRefresh.h; sourceTree = "<group>"; };
+		EABA7ED11C92B9A6008EC4FD /* DGElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGElasticPullToRefresh.m; sourceTree = "<group>"; };
+		EABA7ED21C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGElasticPullToRefreshExtension.h; sourceTree = "<group>"; };
+		EABA7ED31C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGElasticPullToRefreshExtension.m; sourceTree = "<group>"; };
+		EABA7ED41C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGElasticPullToRefreshLoadingView.h; sourceTree = "<group>"; };
+		EABA7ED51C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGElasticPullToRefreshLoadingView.m; sourceTree = "<group>"; };
+		EABA7ED61C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGElasticPullToRefreshLoadingViewCircle.h; sourceTree = "<group>"; };
+		EABA7ED71C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGElasticPullToRefreshLoadingViewCircle.m; sourceTree = "<group>"; };
+		EABA7ED81C92B9A6008EC4FD /* DGElasticPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGElasticPullToRefreshView.h; sourceTree = "<group>"; };
+		EABA7ED91C92B9A6008EC4FD /* DGElasticPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGElasticPullToRefreshView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABA7EC11C92B996008EC4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EABA7EBB1C92B996008EC4FD = {
+			isa = PBXGroup;
+			children = (
+				EABA7EC61C92B996008EC4FD /* DGElasticPullToRefreshStatic */,
+				EABA7EC51C92B996008EC4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EABA7EC51C92B996008EC4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABA7EC41C92B996008EC4FD /* libDGElasticPullToRefreshStatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABA7EC61C92B996008EC4FD /* DGElasticPullToRefreshStatic */ = {
+			isa = PBXGroup;
+			children = (
+				EABA7ED01C92B9A6008EC4FD /* DGElasticPullToRefresh.h */,
+				EABA7ED11C92B9A6008EC4FD /* DGElasticPullToRefresh.m */,
+				EABA7ED21C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.h */,
+				EABA7ED31C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.m */,
+				EABA7ED41C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.h */,
+				EABA7ED51C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.m */,
+				EABA7ED61C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.h */,
+				EABA7ED71C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.m */,
+				EABA7ED81C92B9A6008EC4FD /* DGElasticPullToRefreshView.h */,
+				EABA7ED91C92B9A6008EC4FD /* DGElasticPullToRefreshView.m */,
+				EABA7EC71C92B996008EC4FD /* DGElasticPullToRefreshStatic.h */,
+				EABA7EC91C92B996008EC4FD /* DGElasticPullToRefreshStatic.m */,
+			);
+			path = DGElasticPullToRefreshStatic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABA7EC31C92B996008EC4FD /* DGElasticPullToRefreshStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABA7ECD1C92B996008EC4FD /* Build configuration list for PBXNativeTarget "DGElasticPullToRefreshStatic" */;
+			buildPhases = (
+				EABA7EC01C92B996008EC4FD /* Sources */,
+				EABA7EC11C92B996008EC4FD /* Frameworks */,
+				EABA7EC21C92B996008EC4FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGElasticPullToRefreshStatic;
+			productName = DGElasticPullToRefreshStatic;
+			productReference = EABA7EC41C92B996008EC4FD /* libDGElasticPullToRefreshStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABA7EBC1C92B996008EC4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nikhil Gohil";
+				TargetAttributes = {
+					EABA7EC31C92B996008EC4FD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EABA7EBF1C92B996008EC4FD /* Build configuration list for PBXProject "DGElasticPullToRefreshStatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EABA7EBB1C92B996008EC4FD;
+			productRefGroup = EABA7EC51C92B996008EC4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABA7EC31C92B996008EC4FD /* DGElasticPullToRefreshStatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABA7EC01C92B996008EC4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABA7EDA1C92B9A6008EC4FD /* DGElasticPullToRefresh.m in Sources */,
+				EABA7EDE1C92B9A6008EC4FD /* DGElasticPullToRefreshView.m in Sources */,
+				EABA7ECA1C92B996008EC4FD /* DGElasticPullToRefreshStatic.m in Sources */,
+				EABA7EDC1C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingView.m in Sources */,
+				EABA7EDD1C92B9A6008EC4FD /* DGElasticPullToRefreshLoadingViewCircle.m in Sources */,
+				EABA7EDB1C92B9A6008EC4FD /* DGElasticPullToRefreshExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EABA7ECB1C92B996008EC4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EABA7ECC1C92B996008EC4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EABA7ECE1C92B996008EC4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EABA7ECF1C92B996008EC4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABA7EBF1C92B996008EC4FD /* Build configuration list for PBXProject "DGElasticPullToRefreshStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABA7ECB1C92B996008EC4FD /* Debug */,
+				EABA7ECC1C92B996008EC4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABA7ECD1C92B996008EC4FD /* Build configuration list for PBXNativeTarget "DGElasticPullToRefreshStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABA7ECE1C92B996008EC4FD /* Debug */,
+				EABA7ECF1C92B996008EC4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABA7EBC1C92B996008EC4FD /* Project object */;
+}
